@@ -17,7 +17,7 @@ spec:
         - name: dockerhub-secret
       containers:
         - name: pun-api
-          image: thanapongsj/go-api:9b0720e60445b9b6c6bd20efda3215ff01638177
+          image: thanapongsj/go-api:cdbabbceb4b20d1c6a6210b825be633f37e8efab
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
